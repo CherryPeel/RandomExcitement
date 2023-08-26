@@ -2,7 +2,7 @@
 
 > v1.0.0
 
-[English](./docs/README-EN.md) | 中文
+中文 | [English](./docs/README-EN.md)
 
 RandomExcitement 是一个使用 Go 语言开发的随机图片 API，它为您提供便捷的方式获取不同尺寸和类别的随机图片，满足测试、设计和娱乐等多种需求。通过
 简单的HTTP 请求，您即可获得高质量的随机图片，或者获取指向该图片的 URL。您可以灵活地设定图片的宽度、高度、格式、颜色、模糊程度等参数，或者让API

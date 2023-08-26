@@ -2,7 +2,7 @@
 
 > v1.0.0
 
-[中文文档](../README.md) | English Documentation
+[中文](../README.md) | English
 
 RandomExcitement is a Go language-based API for random images. It offers a convenient way to obtain random images of different sizes and categories, catering to various needs such as testing, design, and entertainment. With a simple HTTP request, you can receive high-quality random images or URLs pointing to those images. You have the flexibility to specify parameters like width, height, format, color, blur level, or let the API choose automatically.
 

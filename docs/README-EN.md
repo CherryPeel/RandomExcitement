@@ -59,6 +59,19 @@ We sincerely welcome your support for RandomExcitement. Feel free to give us a s
 
 ### Deployment with Render
 
+[Render Dashboard](https://dashboard.render.com/)
+
+Clone this project to your personal GitHub repository
+
+```mermaid
+graph LR
+New[New] --> Web-Service[Web Service]
+Web-Service --> ConnectYourGitHub[Connect Your GitHub]
+ConnectYourGitHub --> SelectYourRepository[Select Your Repository]
+```
+
+![configuration](./assets/render-1.jpg)
+
 ## API Documentation
 
 You can access the API documentation by running the project and visiting `http://localhost:8080`.

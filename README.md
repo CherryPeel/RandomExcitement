@@ -64,6 +64,18 @@ RandomExcitement 是一个使用 Go 语言开发的随机图片 API，它为您�
 
 ### Render 部署
 
+[Render Dashboard](https://dashboard.render.com/)
+
+将此项目克隆到你个人的 GitHub 仓库
+
+```mermaid
+graph LR
+New[New] --> Web-Service[Web Service]
+Web-Service --> ConnectYourGitHub[Connect Your GitHub]
+ConnectYourGitHub --> SelectYourRepository[Select Your Repository]
+```
+
+![配置](./docs/assets/render-1.jpg)
 
 ## 接口文档
 

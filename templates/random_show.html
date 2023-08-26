@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>随机图API</title>
+    <link rel="icon" href="/site/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        img {
+            border-radius: 5px;
+            margin: 20px 0;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+    <script>
+        function refreshImage() {
+            var imgElement = document.getElementById("randomImage");
+            imgElement.src = "{{.ApiUri}}" + new Date().getTime();
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>{{.page}}</h1>
+    <img id="randomImage" src="{{.ImagePath}}" alt="随机图片" width="500">
+    <p> 你可以返回 <a href="/">首页</a>，
+        或者，你可以 <a href="javascript:void(0);" onclick="refreshImage();">看看其他随机图片</a>。
+    </p>
+</div>
+</body>
+</html>

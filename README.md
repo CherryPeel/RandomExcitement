@@ -16,7 +16,7 @@ RandomExcitement 是一个使用 Go 语言开发的随机图片 API，它为您�
 
 ## 项目地址
 
-[https://github.com/CherryPeel/RandomExcitement](https://github.com/CherryPeel/RandomExcitement)
+[https://github.com/YenHarvey/RandomExcitement](https://github.com/YenHarvey/RandomExcitement)
 
 ## 功能
 
@@ -32,7 +32,7 @@ RandomExcitement 是一个使用 Go 语言开发的随机图片 API，它为您�
 1. 下载项目到本地
 
     ```gitexclude
-    git clone https://github.com/CherryPeel/RandomExcitement.git
+    git clone https://github.com/YenHarvey/RandomExcitement.git
     ```
 
 2. 进入项目目录

@@ -12,7 +12,7 @@ We sincerely welcome your support for RandomExcitement. Feel free to give us a s
 
 ## Project Repository
 
-[https://github.com/CherryPeel/RandomExcitement](https://github.com/CherryPeel/RandomExcitement)
+[https://github.com/YenHarvey/RandomExcitement](https://github.com/YenHarvey/RandomExcitement)
 
 ## Features
 
@@ -28,7 +28,7 @@ We sincerely welcome your support for RandomExcitement. Feel free to give us a s
 1. Download the project locally:
 
     ```sh
-    git clone https://github.com/CherryPeel/RandomExcitement.git
+    git clone https://github.com/YenHarvey/RandomExcitement.git
     ```
 
 2. Navigate to the project directory:
